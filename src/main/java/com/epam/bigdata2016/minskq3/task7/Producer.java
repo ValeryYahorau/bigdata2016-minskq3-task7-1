@@ -1,4 +1,4 @@
-package com.mapr.examples;
+package com.epam.bigdata2016.minskq3.task7;
 
 import com.google.common.io.Resources;
 import org.apache.kafka.clients.producer.KafkaProducer;

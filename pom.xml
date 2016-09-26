@@ -58,7 +58,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.epam.bigdata.kafka.Producer</mainClass>
+                            <mainClass>com.epam.bigdata2016.minskq3.task7.Producer</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
