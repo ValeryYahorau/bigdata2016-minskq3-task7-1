@@ -29,6 +29,7 @@ public class Producer {
                     try(Stream<String> lines = Files.lines(filePath, Charset.forName("ISO-8859-1"))) {
                         lines.forEach(line ->{
                             producer.send(new ProducerRecord<>("logstopic", line));
+                            System.out.println("Line was read from file: " + line);
                         });
                     } catch (IOException ex) {
                         throw new RuntimeException(ex);
